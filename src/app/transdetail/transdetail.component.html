@@ -1,0 +1,23 @@
+<!-- <p>transdetail works!</p> -->
+
+<div *ngIf="mytdata">
+    <table class="table table-bordered">
+        <thead>
+            <tr class="success">
+                <th>MODEL</th>
+                <th>PRICE</th>
+                <th>MILEAGE</th>
+                <th>Version</th>
+                
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>{{mytdata.model}}</td>
+                <td>{{mytdata.price}}</td>
+                <td>{{mytdata.mileage}}</td>
+                <td>{{mytdata.version}}</td>  
+            </tr>
+        </tbody>
+    </table>
+</div>
