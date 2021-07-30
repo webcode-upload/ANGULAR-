@@ -18,7 +18,7 @@ export class MyserviceService {
   }
 
 
-  getCarEmpParent(){
+  getEmpParent(){
     let url = "https://cybotrix.com/ios/car.json";
     return this.obj.get(url);
   }

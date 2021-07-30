@@ -21,7 +21,7 @@ export class TransportComponent implements OnInit {
   tdata:any[];
 
   fetchData(){
-    this.obj.getCarEmpParent().subscribe(
+    this.obj.getEmpParent().subscribe(
       response=>{
         this.myData = response as string[];
         this.myData2 = this.myData
